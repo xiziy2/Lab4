@@ -8,9 +8,8 @@
  * 5. Remove unnecessary comments as appropriate
  */
 
-public class ReclamationProject
-{
-    static String doit(String a,String b){
+public class ReclamationProject {
+    static String doit(String a,String b) {
         if (a.length() > b.length()) {
             String c = a; // TODO: set c to a
             a = b;
@@ -26,4 +25,5 @@ public class ReclamationProject
                 }
             }
         } return r;
+}
 }
